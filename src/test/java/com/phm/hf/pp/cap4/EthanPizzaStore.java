@@ -1,7 +1,8 @@
 package com.phm.hf.pp.cap4;
 
+import com.phm.hf.pp.cap4.ingredientes.TiposPizza;
 import com.phm.hf.pp.cap4.pizzarias.Pizzaria;
-import com.phm.hf.pp.cap4.pizzarias.PizzariaNY;
+import com.phm.hf.pp.cap4.pizzarias.impl.PizzariaNY;
 
 public class EthanPizzaStore {
 

@@ -1,9 +1,11 @@
 package com.phm.hf.pp.cap4;
 
+import com.phm.hf.pp.cap4.Pizza;
+import com.phm.hf.pp.cap4.ingredientes.TiposPizza;
 import com.phm.hf.pp.cap4.pizzarias.Pizzaria;
-import com.phm.hf.pp.cap4.pizzarias.PizzariaCalifornia;
-import com.phm.hf.pp.cap4.pizzarias.PizzariaChicago;
-import com.phm.hf.pp.cap4.pizzarias.PizzariaNY;
+import com.phm.hf.pp.cap4.pizzarias.impl.PizzariaCalifornia;
+import com.phm.hf.pp.cap4.pizzarias.impl.PizzariaChicago;
+import com.phm.hf.pp.cap4.pizzarias.impl.PizzariaNY;
 
 public class PizzaTestDrive {
 

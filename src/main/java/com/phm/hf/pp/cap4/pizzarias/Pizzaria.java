@@ -1,7 +1,7 @@
 package com.phm.hf.pp.cap4.pizzarias;
 
 import com.phm.hf.pp.cap4.Pizza;
-import com.phm.hf.pp.cap4.TiposPizza;
+import com.phm.hf.pp.cap4.ingredientes.TiposPizza;
 
 public abstract class Pizzaria {
 
@@ -16,5 +16,5 @@ public abstract class Pizzaria {
 		return pizza;
 	}
 
-	abstract Pizza criarPizza(final TiposPizza pTipo);
+	protected abstract Pizza criarPizza(final TiposPizza pTipo);
 }
